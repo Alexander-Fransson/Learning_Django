@@ -76,9 +76,9 @@ WSGI_APPLICATION = 'convis.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'db_name',
+        'NAME': 'postgres-convis',
         'USER': 'db_user',
-        'PASSWORD': 'db_password',
+        'PASSWORD': 'postgres',
         'HOST': 'localhost',
         'PORT': '5432',
     }
